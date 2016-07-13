@@ -4,6 +4,7 @@ set hidden
 filetype plugin on
 set foldmethod=syntax
 set foldlevel=2
+let mapleader=","
 
 " ######################################################################
 "  INSERTION
@@ -62,6 +63,10 @@ Plugin 'ctrlpvim/ctrlp.vim'
 map ,b :CtrlPBuffer<CR>
 
 Plugin 'elzr/vim-json'
+
+Plugin 'Lokaltog/vim-easymotion'
+
+Plugin 'tpope/vim-surround'
 
 Plugin 'rking/ag.vim'
 
