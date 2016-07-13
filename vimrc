@@ -20,7 +20,7 @@ set backspace=indent,eol,start
 "  APPEARANCE
 " ######################################################################
 syntax on
-colorscheme monokai
+colorscheme molokai
 set t_Co=256
 set hlsearch
 set relativenumber
@@ -31,7 +31,7 @@ autocmd WinLeave * set nocursorline
 " colorscheme overrides
 hi CursorLineNr                  ctermbg=none  cterm=none
 hi CursorLine                    ctermbg=237   cterm=none
-hi Visual                        ctermbg=237   cterm=none
+hi Visual                        ctermbg=124   cterm=none
 hi Normal           ctermfg=253  ctermbg=none
 
 " ######################################################################
