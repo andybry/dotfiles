@@ -65,10 +65,14 @@ map ,b :CtrlPBuffer<CR>
 Plugin 'elzr/vim-json'
 
 Plugin 'Lokaltog/vim-easymotion'
+map  f <Plug>(easymotion-bd-f)
+map  F <Plug>(easymotion-bd-f)
 
 Plugin 'tpope/vim-surround'
 
 Plugin 'rking/ag.vim'
+
+Plugin 'Raimondi/delimitMate'
 
 Plugin 'scrooloose/nerdtree'
 map ,p :NERDTreeToggle<CR>
