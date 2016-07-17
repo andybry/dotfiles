@@ -68,6 +68,8 @@ Plugin 'Lokaltog/vim-easymotion'
 map  f <Plug>(easymotion-bd-f)
 map  F <Plug>(easymotion-bd-f)
 
+Plugin 'mattn/emmet-vim'
+
 Plugin 'tpope/vim-surround'
 
 Plugin 'rking/ag.vim'
