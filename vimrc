@@ -106,6 +106,10 @@ set laststatus=2
 
 Plugin 'airblade/vim-gitgutter'
 
+Plugin 'SirVer/ultisnips'
+let g:UltiSnipsSnippetDirectories = [$HOME.'/.vim/my-snippets']
+let g:UltiSnipsExpandTrigger = "<c-space>"
+
 Plugin 'xolox/vim-misc'
 
 Plugin 'xolox/vim-notes'
