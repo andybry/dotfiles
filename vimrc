@@ -1,5 +1,6 @@
 set nocompatible
 set wildignore=*/node_modules/*
+set wildignore=*.class
 set hidden
 filetype plugin on
 set foldmethod=syntax
