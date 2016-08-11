@@ -62,6 +62,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 map ,b :CtrlPBuffer<CR>
 
+Plugin 'derekwyatt/vim-scala'
+
 Plugin 'elzr/vim-json'
 
 Plugin 'Lokaltog/vim-easymotion'
